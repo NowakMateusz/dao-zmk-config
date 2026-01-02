@@ -2,7 +2,7 @@ file_format: "1"
 id: dao
 name: Dao
 url: https://github.com/yumagulovrn/dao-choc-ble
-type: board
+type: shield
 arch: arm
 features:
   - keys
