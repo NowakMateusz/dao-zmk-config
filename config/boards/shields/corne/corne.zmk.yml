@@ -1,6 +1,6 @@
 file_format: "1"
-id: dao
-name: Dao
+id: corne
+name: Corne
 url: https://github.com/yumagulovrn/dao-choc-ble
 type: shield
 arch: arm
@@ -10,5 +10,5 @@ outputs:
   - usb
   - ble
 siblings:
-  - dao_left
-  - dao_right
+  - corne_left
+  - corne_right

@@ -1,5 +1,5 @@
-identifier: dao
-name: Dao
+identifier: corne
+name: Corne
 type: keyboard
 arch: arm
 toolchain:

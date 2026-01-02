@@ -1,5 +1,5 @@
 include:
   - board: nrfmicro_13_52833
-    shield: dao_left
+    shield: corne_left
   - board: nrfmicro_13_52833
-    shield: dao_right
+    shield: corne_right

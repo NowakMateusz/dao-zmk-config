@@ -1,7 +1,7 @@
 # Copyright (c) 2021 Rafael Yumagulov
 # SPDX-License-Identifier: MIT
 
-if SHIELD_DAO_LEFT
+if SHIELD_CORNE_LEFT
 
 	config ZMK_KEYBOARD_NAME
 	default "PIT-Click"
@@ -9,12 +9,12 @@ if SHIELD_DAO_LEFT
     config ZMK_SPLIT_BLE_ROLE_CENTRAL
 	default y
 
-endif # SHIELD_DAO_LEFT
+endif # SHIELD_CORNE_LEFT
 
-if SHIELD_DAO_LEFT || SHIELD_DAO_RIGHT
+if SHIELD_CORNE_LEFT || SHIELD_CORNE_RIGHT
 
 config BOARD
-	default "dao"
+	default "corne"
 
 config ZMK_SPLIT
 	default y
@@ -33,4 +33,4 @@ config USB_DEVICE_STACK
 
 endif # USB
 
-endif # SHIELD_DAO_LEFT || SHIELD_DAO_RIGHT
+endif # SHIELD_CORNE_LEFT || SHIELD_CORNE_RIGHT

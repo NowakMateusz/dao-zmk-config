@@ -1,5 +1,0 @@
-config SHIELD_DAO_LEFT
-    def_bool $(shields_list_contains,dao_left)
-
-config SHIELD_DAO_RIGHT
-    def_bool $(shields_list_contains,dao_right)
