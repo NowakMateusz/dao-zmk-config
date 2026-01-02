@@ -1,5 +1,5 @@
 include:
-  - board: nrfmicro/nrf52833
+  - board: nrfmicro_13_52833
     shield: dao_left
-  - board: nrfmicro/nrf52833
+  - board: nrfmicro_13_52833
     shield: dao_right
